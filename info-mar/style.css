@@ -1,12 +1,41 @@
 @layer{}
+@media(max-width: 1410px){
 body{
-
+    background-color:#ffffff;
+    ;
     color: #77c2ec;
-    max-width: 1200px;
+    max-width: 1230px;
     margin: 0 auto;
     padding: 15px;
    z-index: 3;
 }
+
+.btn-ini{
+   position: absolute;
+   margin-top: 390px;
+   margin-left: 950px;
+   border: none;
+   border-radius: 20px;
+   line-height: 70px;
+   text-align: center;
+   cursor: pointer;
+   width: 244px;
+   height: 74px;
+   
+
+   background-color: #437A6F;
+   font-size: 35px;
+   color: #ffffff;
+   z-index: 2;
+}
+.btn-ini:hover{
+    color: #77c2ec;
+    background-color:black;
+    transition: 0.5s;
+}
+
+
+
 
 header{
     position: relative;
@@ -14,17 +43,35 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top:-142px ;
+    margin-top:-30px ;
+    margin-left: -200px;
+    height: 100px;
+    width: 1490px;
+
+    background-color: #437A6F;
+    color: white;
+    font-size: large;
+    font-family: inherit;
     z-index: 1;
+}
+h2{
+    position: relative;
+    margin-top: 100px;
+    font-size: 80px;
+}
+p{
+    position: relative;
+   width: 400px;
+
+   font-size: 30px;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 #title{
-    position: relative;
-    display: right;
-    line-height: 10px;
-    align-self: right;
+    position: absolute;
+    align-items: center;
     top: 140px;
-    margin-top: 100px;
+    margin-top: 80px;
     margin-left: 970px;
 
 
@@ -38,46 +85,53 @@ ul{
     z-index: 2;
 }
 li{
-    display: block;
+    position: relative;
+    display: inline-block;
+    align-items: center;
     margin: 20px;
-    margin-top: auto;
+    margin-top: 20px;
+    margin-left: 80px;
     z-index: 2;
+}
+a{ 
+    position: relative;
+    align-items: center;
+    font-size: larger;
+    color: white;
+    
+}
+a:hover{
+    color: cadetblue;
+    transition: 0.5s;
 }
 main{
     position: relative;
     display: flex;
     flex-direction: row;
     margin-top:600px;
-    left: -100px;
+    margin-left: 2px;
     z-index: 2;
 }
 
-Img{
-position: absolute;
-width: 1423px;
-height: 580px;
-left: -0px;
-top: 75px;
-
-background: url(Img-4.png);
-z-index: 1;
-
-}
-.rectangle{
+.imgta{
+    height: 700px;
+    width:1390px;
     position: absolute;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    width: 1422px;
-    height: 100px;
-    margin-top: -170px;
-    left:1px;
-    z-index: 1;
     
 
-background-color: #437A6F;
-border-radius: 0px 0px 10px 10px;
+
+    margin-left: -100px;
+    margin-top: px;
+}
+.imgtp{
+    height: 620px;
+    width: 600px;
+    position: absolute;
+
+
+    margin-top: 750px;
+    margin-left: 630px;
+}
 }
 
 
